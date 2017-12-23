@@ -138,9 +138,9 @@ a.boek {
     background: #efc03c;
     color: #000;
 }
-a.article, a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
+a.bel, a.bel:hover {
+    background: #efc03c !important;
+    color: #000 !important;
 }
 
 
