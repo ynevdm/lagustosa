@@ -172,8 +172,9 @@ a.bel {
 }
 
 #pasta1 {
-
     background-image: url('../images/pasta1.jpg');
+    background-position: center center;
+    background-size: cover;
 }
 
 .ha1 {
