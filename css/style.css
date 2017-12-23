@@ -138,7 +138,7 @@ a.boek {
     background: #efc03c;
     color: #000;
 }
-a.bel, a.bel:hover {
+a.bel {
     background: #efc03c !important;
     color: #000 !important;
 }
