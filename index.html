@@ -8,7 +8,7 @@
 
     <title>La Gustosa</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -88,33 +88,38 @@
         <div id="content">
 
             <div class="container-fluid">
-            <div class="row">
-                <div class="col afbeelding" id="pasta1"><h1 class="ha1">Welkom!</h1></div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h2>Welkom bij La Gustosa!</h2>
-                    <p>Sinds 2017 trekken Sergio en Eva met hun foodtruck La Gustosa van event naar event om de bezoekers te
-                        verwennen met de heerlijkste pasta!
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.</p>
+                <div class="row">
+                    <div class="col afbeelding" id="pasta1">
+                        <h1 class="ha1">Welkom!</h1>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Welkom bij La Gustosa!</h2>
+                        <p>Sinds 2017 trekken Sergio en Eva met hun foodtruck La Gustosa van event naar event om de bezoekers
+                            te verwennen met de heerlijkste pasta!
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
             </div>
-
-            <div class="line"></div>
-
-        </div>
         </div>
 
         <div class="footer">
-                <div class="row">
-                    <div class="col">
-                        Yne Van De Mergel &#8226; <a href="">PDF-link</a>
-                    </div>
+            <div class="row">
+                <div class="col">
+                    Yne Van De Mergel &#8226;
+                    <a href="">PDF-link</a>
+                </div>
+            </div>
+        </div>
 
 
         <!-- jQuery CDN -->
@@ -126,18 +131,18 @@
 
         <script type="text/javascript">
             $(document).ready(function () {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
-                });
-
-                $('#sidebarCollapse').on('click', function () {
-                    $('#sidebar, #content').toggleClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                });
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
             });
 
-            
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+            });
+
+
 
             });
         </script>
