@@ -32,7 +32,7 @@ a, a:hover, a:focus, a:visited {
     background: #efefef;
     border: none;
     border-radius: 0;
-    margin-bottom: 40px;
+    margin-bottom: -20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -143,6 +143,9 @@ a.bel {
     color: #000 !important;
 }
 
+.footer {
+    text-align: center;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE
