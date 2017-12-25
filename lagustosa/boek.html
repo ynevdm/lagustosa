@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="nl">
 
 <head>
@@ -94,10 +96,10 @@
                         <form>
                             <div class="form-group row">
                                 <div class="col-md-6 col-sm-12">
-                                    <input class="form-control" type="text" id="example-text-input" placeholder="Naam">
+                                    <input class="form-control" type="text" id="Naamveld" placeholder="Naam">
                                 </div>
                                 <div class="col-md-6 col-sm-12">
-                                    <input class="form-control" type="text" id="example-text-input" placeholder="Voornaam">
+                                    <input class="form-control" type="text" id="Voornaamveld" placeholder="Voornaam">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -106,7 +108,7 @@
                                     <small> <small id="emailHelp" class="opmerking form-text">Je e-mailadres komt nooit in foute handen terecht, beloofd!</small></small>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
-                                    <input class="form-control" type="tel" placeholder="Telefoonnummer" id="example-tel-input">
+                                    <input class="form-control" type="tel" placeholder="Telefoonnummer" id="Telefoonveld">
                                 </div>
                             </div>
 
@@ -114,9 +116,9 @@
 
                                 <div class="col-md-6 col-sm-12">
 
-                                    <label for="example-date-input" class="col-form-label">Datum van je evenement</label>
+                                    <label for="Datumveld" class="col-form-label">Datum van je evenement</label>
 
-                                    <input class="form-control" type="date" value="dd/mm/jj" id="example-date-input">
+                                    <input class="form-control" type="date" id="Datumveld">
                                 </div>
                                 <div class="col-6"></div>
                             </div>
@@ -154,192 +156,197 @@
                 <div class="footer">
                     <div class="row">
 
-                        <div class="col-1"></div>
-                        <div class="col-2"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63</div>
-                        <div class="col-1"></div>
-                        <div class="col-4">
-                            2017-2018 &#8226; <a href="productiedossier.pdf">Productiedossier</a> <br> Yne Van De Mergel &#8226; NMDII-STDV <br> Grafische en digitale media <br> Arteveldehogeschool Gent <br>
+                        <div class="col-md-2 col-sm-3"></div>
+                        <div class="col-md-2 col-sm-6"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63</div>
+                        <div class="col-md-1 col-sm-3"></div>
+                        <div class="col-md-2 col-sm-12">
+                            2017-2018 &#8226; NMDII-STDV <br> Yne Van De Mergel &#8226; <a href="productiedossier.pdf">PDF</a> <br> Grafische en digitale media <br> Arteveldehogeschool Gent <br>
 
 
                         </div>
-                        <div class="col-1"></div>
-                        <div class="col-2">
-                            <div class="single">
-                                Schrijf in op onze nieuwsbrief
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="E-mailadres">
-                                    <span class="input-group-btn">
-         <button class="btn btn-info btn-theme" type="submit">Schrijf nu in</button>
-         </span>
-                                </div>
-                            </div>
+
+                        <div class="col-md-3 col-sm-12">
                             <ul id="sociallist">
 
                                 <li><a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="http://instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             </ul>
+
+                            <div>Schrijf in op onze nieuwsbrief</div>
+                            <div class="col-sm-2"></div>
+
+                            <div class="col-md-12 col-sm-8 input-group">
+
+                                <input type="email" class="form-control" placeholder="E-mailadres">
+                                <span class="input-group-btn">
+         <button class="btn btn-info btn-theme" type="submit">Schrijf nu in</button>
+         </span>
+                            </div>
+                            <div class="col-sm-2"></div>
                         </div>
-                        <div class="col-1"></div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- end content -->
-        <!-- Bootstrap core JavaScript
+
+    <!-- end content -->
+    <!-- Bootstrap core JavaScript
       ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        <!-- jQuery CDN -->
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <!-- Bootstrap Js CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <!-- jQuery Custom Scroller CDN -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
-                });
-
-                $('#sidebarCollapse').on('click', function() {
-                    $('#sidebar, #content').toggleClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-                });
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
             });
 
-        </script>
-        <script>
-            function initMap() {
-                var styles = [{
-                        "featureType": "administrative",
-                        "elementType": "labels.text.fill",
-                        "stylers": [{
-                            "color": "#444444"
-                        }]
-                    },
-                    {
-                        "featureType": "landscape",
-                        "elementType": "all",
-                        "stylers": [{
-                            "color": "#f2f2f2"
-                        }]
-                    },
-                    {
-                        "featureType": "poi",
-                        "elementType": "all",
-                        "stylers": [{
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+
+    </script>
+    <script>
+        function initMap() {
+            var styles = [{
+                    "featureType": "administrative",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "color": "#444444"
+                    }]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{
+                        "color": "#f2f2f2"
+                    }]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "poi.school",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "visibility": "on"
+                    }]
+                },
+                {
+                    "featureType": "poi.school",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
                             "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "poi.school",
-                        "elementType": "geometry.fill",
-                        "stylers": [{
+                        },
+                        {
+                            "weight": "0.01"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.school",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "poi.school",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "poi.school",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "on"
+                    }]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "all",
+                    "stylers": [{
+                            "saturation": -100
+                        },
+                        {
+                            "lightness": 45
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "simplified"
+                    }]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "all",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{
+                            "color": "#efc03c"
+                        },
+                        {
                             "visibility": "on"
-                        }]
-                    },
-                    {
-                        "featureType": "poi.school",
-                        "elementType": "geometry.stroke",
-                        "stylers": [{
-                                "visibility": "off"
-                            },
-                            {
-                                "weight": "0.01"
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "poi.school",
-                        "elementType": "labels.text.fill",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "poi.school",
-                        "elementType": "labels.text.stroke",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "poi.school",
-                        "elementType": "labels.icon",
-                        "stylers": [{
-                            "visibility": "on"
-                        }]
-                    },
-                    {
-                        "featureType": "road",
-                        "elementType": "all",
-                        "stylers": [{
-                                "saturation": -100
-                            },
-                            {
-                                "lightness": 45
-                            }
-                        ]
-                    },
-                    {
-                        "featureType": "road.highway",
-                        "elementType": "all",
-                        "stylers": [{
-                            "visibility": "simplified"
-                        }]
-                    },
-                    {
-                        "featureType": "road.arterial",
-                        "elementType": "labels.icon",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "transit",
-                        "elementType": "all",
-                        "stylers": [{
-                            "visibility": "off"
-                        }]
-                    },
-                    {
-                        "featureType": "water",
-                        "elementType": "all",
-                        "stylers": [{
-                                "color": "#efc03c"
-                            },
-                            {
-                                "visibility": "on"
-                            }
-                        ]
-                    }
-                ]
-                var brussels = new google.maps.LatLng(50.850346, 4.351721);
+                        }
+                    ]
+                }
+            ]
+            var brussels = new google.maps.LatLng(50.850346, 4.351721);
 
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 8,
-                    center: brussels,
-                    styles: styles
-                });
-                var marker = new google.maps.Marker({
-                    position: brussels,
-                    map: map
-                });
-            }
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: brussels,
+                styles: styles
+            });
+            var marker = new google.maps.Marker({
+                position: brussels,
+                map: map
+            });
+        }
 
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKGpIViYBo83CLe4P6_dwQXka_8OV5RgE&callback=initMap">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKGpIViYBo83CLe4P6_dwQXka_8OV5RgE&callback=initMap">
 
 
-        </script>
-        <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-        <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+    </script>
+    <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+    <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
 </body>
 
 </html>
