@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Varela+Round|Sigmar+One|Bowlby+One+SC');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Sofia');
-
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
 
 body {
     margin: 0 auto;
@@ -347,14 +351,14 @@ p {
     }
 
     .navbarbrand {
-        width: 50px;
+        width: 125px;
         padding: 0px;
     }
 
     .navbar-toggler,
     .navbar-toggler:hover,
     .navbar-toggler:active {
-        margin-top: 20px;
+        margin-top: 15px;
         border: none;
     }
 
