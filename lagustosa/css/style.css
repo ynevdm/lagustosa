@@ -359,6 +359,7 @@ p {
     .navbar-toggler:hover,
     .navbar-toggler:active {
         margin-top: 15px;
+        height: 20px;
         border: none;
     }
 
@@ -384,6 +385,7 @@ p {
 
     .ha1 {
         font-size: 4em;
+        padding-top: 120px;
     }
 
     #map {
