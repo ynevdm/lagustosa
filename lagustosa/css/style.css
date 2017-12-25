@@ -34,14 +34,6 @@ a:visited {
     transition: all 0.3s;
 }
 
-
-
-.navbar-btn {
-    box-shadow: none;
-    outline: none;
-    border: none;
-}
-
 .btn-info {
     background-color: #efc03c;
     border: none;
@@ -340,7 +332,36 @@ p {
     MEDIA QUERIES
 ----------------------------------------------------- */
 
+@media (min-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
+    .navbar {
+        visibility: visible;
+        background-color: #efefef;
+        color: #212121;
+        padding: 0 0 0 15px;
+    }
+
+    .navbarbrand {
+        width: 150px;
+        padding: 0px;
+    }
+
+    .navbar-toggler,
+    .navbar-toggler:hover,
+    .navbar-toggler:active {
+        margin-top: 20px;
+        border: none;
+    }
+
+    #hamburger {
+        color: #212121;
+
+    }
     #sidebar {
         margin-left: -250px;
     }
@@ -374,34 +395,7 @@ p {
         font-size: 0.8em;
         text-align: center;
     }
-    .navbar .collapse {
-        max-height: 250px;
-        width: 100%;
-        overflow-y: auto;
-        overflow-x: hidden;
-    }
-    .navbar .navbar-brand {
-        float: none;
-        display: inline-block;
-    }
-    .navbar .navbar-nav > .nav-item {
-        float: none;
-        margin-left: .1rem;
-    }
-    .navbar .navbar-nav {
-        float: none !important;
-    }
-    .nav-item {
-        width: 100%;
-        text-align: left;
-    }
-    .navbar .collapse .dropdown-menu {
-        position: relative;
-        float: none;
-        background: none;
-        border: none;
-    }
-}
+
 
 }
 

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <!-- Bootstrap CSS CDN -->
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
@@ -17,6 +16,31 @@
 
 <body>
     <!-- content -->
+    <!-- Top navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
@@ -78,10 +102,43 @@
             </ul>
         </nav>
 
+
         <!-- Page Content Holder -->
         <div id="content">
             <div class="container-fluid">
-                <div class="col col-afbeelding" id="kalender1">
+                <nav class="navbar navbar-expand navbar-toggleable-sm">
+                    <button class="navbar-toggler toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i id="hamburger" class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+                    <a class="navbarbrand" href="index.html"><img src="images/LaGustosa.svg" alt="Logo La Gustosa"></a>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="concept.html">Concept</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="kalender.html">Kalender</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="over.html">Over</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <div class="col-12 col col-afbeelding" id="kalender1">
                     <h1 class="ha1">Kalender</h1>
                 </div>
             </div>
@@ -151,7 +208,7 @@
                 <div class="row">
 
                     <div class="col-md-2 col-sm-3"></div>
-                    <div class="col-md-2 col-sm-6"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63</div>
+                    <div class="col-md-2 col-sm-6"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63<br></div>
                     <div class="col-md-1 col-sm-3"></div>
                     <div class="col-md-2 col-sm-12">
                         2017-2018 &#8226; NMDII-STDV <br> Yne Van De Mergel &#8226; <a href="productiedossier.pdf">PDF</a> <br> Grafische en digitale media <br> Arteveldehogeschool Gent <br>
