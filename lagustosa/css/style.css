@@ -399,7 +399,9 @@ p {
         font-size: 0.8em;
         text-align: center;
     }
-
+    .col-afbeelding {
+        height: 50vh;
+    }
 
 }
 
