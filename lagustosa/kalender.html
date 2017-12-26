@@ -6,12 +6,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
     <link rel="stylesheet" href="css/vendor/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- favicons -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
     <title>La Gustosa | Kalender </title>
 </head>
@@ -124,69 +134,70 @@
                 <div class="col-12 col col-afbeelding" id="kalender1">
                     <h1 class="ha1">Kalender</h1>
                 </div>
-            </div>
-            <div class="infobox row">
-                <div class="col-2"></div>
-                <div class="col-8">
-                    <h2>Kalender</h2>
-                    <p>Ook zin gekregen in onze overheerlijke pasta's? <br>Hieronder vind je een overzicht van waar je ons de komende weken zoal kunt vinden.
-                    </p>
-                    <p>Wil je La Gustosa ook op jouw event? Check dan zeker onze 'boek ons'-pagina!</p>
+
+                <div class="infobox">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <h2>Kalender</h2>
+                            <p>Ook zin gekregen in onze overheerlijke pasta's? <br>Hieronder vind je een overzicht van waar je ons de komende weken zoal kunt vinden.
+                            </p>
+                            <p>Wil je La Gustosa ook op jouw event? Check dan zeker onze 'boek ons'-pagina!</p>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
+
+                    <div class="dates row">
+                        <div class="col-md-2 col-sm-3">
+                        </div>
+                        <div class="col-md-8 col-sm-6">
+                            <table class="table table-inverse">
+                                <thead>
+                                    <tr>
+                                        <th>Datum</th>
+                                        <th>Event</th>
+                                        <th>Locatie</th>
+                                        <th>Uur</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">31/12/2017</th>
+                                        <td>NYE</td>
+                                        <td>Overpoort, Gent</td>
+                                        <td>21:30</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">06/01/2018</th>
+                                        <td>Driekoningenfeest</td>
+                                        <td>Grote Markt, Brussel</td>
+                                        <td>14:30</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">22/01/2018</th>
+                                        <td>Fin de L'examen</td>
+                                        <td>Oude Markt, Leuven</td>
+                                        <td>18:00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-md-2 col-sm-3"></div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-2 col-sm-1"></div>
+                        <div class="col-md-8 col-sm-10">
+
+
+                            <div id="map"></div>
+                        </div>
+                        <div class="col-md-2 col-sm-1"></div>
+                    </div>
                 </div>
-                <div class="col-2"></div>
             </div>
-
-
-            <div class="dates row">
-                <div class="col-md-2 col-sm-2">
-                </div>
-                <div class="col-md-8 col-sm-8">
-                    <table class="table table-inverse">
-                        <thead>
-                            <tr>
-                                <th>Datum</th>
-                                <th>Event</th>
-                                <th>Locatie</th>
-                                <th>Uur</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">31/12/2017</th>
-                                <td>NYE</td>
-                                <td>Overpoort, Gent</td>
-                                <td>21:30</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">06/01/2018</th>
-                                <td>Driekoningenfeest</td>
-                                <td>Grote Markt, Brussel</td>
-                                <td>14:30</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">22/01/2018</th>
-                                <td>Fin de L'examen</td>
-                                <td>Oude Markt, Leuven</td>
-                                <td>18:00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-2 col-sm-2"></div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-2 col-sm-1"></div>
-                <div class="col-md-8 col-sm-10">
-
-
-                    <div id="map"></div>
-                </div>
-                <div class="col-md-2 col-sm-1"></div>
-            </div>
-
-
             <div class="footer">
                 <div class="row">
 

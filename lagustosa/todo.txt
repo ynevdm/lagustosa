@@ -1,0 +1,4 @@
+- Overzicht pasta's
+- sprites
+- touchicons
+
