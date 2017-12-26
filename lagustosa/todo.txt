@@ -1,4 +1,6 @@
 - Overzicht pasta's
 - sprites
-- touchicons
++ touchicons
+- Nieuwsbrief
+- Nieuwsbriefformaanpassen
 
