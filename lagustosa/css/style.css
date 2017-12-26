@@ -345,12 +345,12 @@ p {
 }
 
 .infobox {
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .dates {
     padding-bottom: 20px;
-
+    margin-top: 40px;
 }
 
 /* ---------------------------------------------------
@@ -408,6 +408,8 @@ p {
         font-size: 4em;
         padding-top: 120px;
     }
+
+
 
     #map {
         height: 300px;
