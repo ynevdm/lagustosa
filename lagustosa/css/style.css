@@ -220,6 +220,10 @@ a.bel {
 
 }
 
+#soortenpasta {
+    background-image: url('../images/soortenpasta.jpg');
+}
+
 #contact1 {
     background-image: url('../images/contact1.jpg');
 }
@@ -428,6 +432,10 @@ p {
         height: 50vh;
     }
 
+    .table row {
+        margin: 0px;
+    }
+
 }
 
 
@@ -554,4 +562,47 @@ input[type=date] {
 
 .baguetteBox-button {
     background-color: transparent !important;
+}
+
+
+/* ---- sprites  ----- */
+
+.sprite {
+    width: 96px;
+    height: 96px;
+    background-image: url('../sprites/spritesheet.png');
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sprite-cellentani {
+    background-position: 0px;
+}
+
+.sprite-farfalle {
+    background-position: -96px;
+}
+
+.sprite-fusilli {
+    background-position: -192px;
+}
+
+.sprite-penne {
+    background-position: -288px;
+}
+
+.sprite-rigatoni {
+    background-position: 384px;
+}
+
+.sprite-spaghetti {
+    background-position: 288px;
+}
+
+.sprite-conchiglie {
+    background-position: 192px;
+}
+
+.sprite-ripe {
+    background-position: 96px;
 }
