@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html lang="nl">
 
 <head>
@@ -16,31 +18,7 @@
 
 <body>
     <!-- content -->
-    <!-- Top navbar -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Navbar</a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
     <div class="wrapper">
         <!-- Sidebar Holder -->
         <nav id="sidebar">
@@ -56,9 +34,9 @@
                     <a href="concept.html">Concept</a>
                 </li>
                 <li>
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Menu</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Menu</a>
 
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
                             <a href="soortenpasta.html">Soorten pasta</a>
                         </li>
@@ -71,15 +49,8 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Foto's</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="food.html">Food</a>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                    </ul>
+                    <a href="fotos.html">Foto's</a>
+
                 </li>
                 <li class="active">
                     <a href="kalender.html">Kalender</a>
@@ -113,17 +84,29 @@
                     <a class="navbarbrand" href="index.html"><img src="images/LaGustosa.svg" alt="Logo La Gustosa"></a>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="concept.html">Concept</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="menu.html">Menu</a>
+                                <a class="nav-link" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Menu</a>
+
+                                <ul class="collapse list-unstyled" id="pageSubmenu">
+                                    <li>
+                                        <a href="soortenpasta.html">Soorten pasta</a>
+                                    </li>
+                                    <li>
+                                        <a href="smaken.html">Smaken</a>
+                                    </li>
+                                    <li>
+                                        <a href="pastavandemaand.html">Pasta van de Maand</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="kalender.html">Kalender</a>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="kalender.html">Kalender<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="over.html">Over</a>
@@ -142,7 +125,7 @@
                     <h1 class="ha1">Kalender</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="infobox row">
                 <div class="col-2"></div>
                 <div class="col-8">
                     <h2>Kalender</h2>
@@ -154,7 +137,7 @@
             </div>
 
 
-            <div class="row">
+            <div class="dates row">
                 <div class="col-md-2 col-sm-2">
                 </div>
                 <div class="col-md-8 col-sm-8">
@@ -177,13 +160,13 @@
                             <tr>
                                 <th scope="row">06/01/2018</th>
                                 <td>Driekoningenfeest</td>
-                                <td>Markt, Roesbrugge</td>
+                                <td>Grote Markt, Brussel</td>
                                 <td>14:30</td>
                             </tr>
                             <tr>
                                 <th scope="row">22/01/2018</th>
                                 <td>Fin de L'examen</td>
-                                <td>Campus Mariakerke</td>
+                                <td>Oude Markt, Leuven</td>
                                 <td>18:00</td>
                             </tr>
                         </tbody>
@@ -219,7 +202,7 @@
                     <div class="col-md-3 col-sm-12">
                         <ul id="sociallist">
 
-                            <li><a href="http://twitter.com/" target="_blank"><i class="&#xf099;" aria-hidden="true"></i></a></li>
+                            <li><a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="http://instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         </ul>
@@ -250,8 +233,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <!-- Bootstrap Js CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
@@ -376,15 +357,54 @@
                 }
             ]
             var brussels = new google.maps.LatLng(50.850346, 4.351721);
+            var ghent = new google.maps.LatLng(51.054342, 3.717424);
+            var leuven = new google.maps.LatLng(50.878072, 4.699557);
+            var kortrijk = new google.maps.LatLng(50.819478, 3.257726);
+            var antwerp = new google.maps.LatLng(51.219448, 4.402464);
+            var brugge = new google.maps.LatLng(51.209348, 3.2247);
 
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 8,
-                center: brussels,
-                styles: styles
+                zoom: 9,
+                center: ghent,
+                styles: styles,
             });
+
+            var markerImage = 'images/marker.png';
+
             var marker = new google.maps.Marker({
                 position: brussels,
-                map: map
+                map: map,
+                icon: markerImage,
+            });
+
+            var marker = new google.maps.Marker({
+                position: ghent,
+                map: map,
+                icon: markerImage,
+            });
+
+            var marker = new google.maps.Marker({
+                position: leuven,
+                map: map,
+                icon: markerImage,
+            });
+
+            var marker = new google.maps.Marker({
+                position: kortrijk,
+                map: map,
+                icon: markerImage,
+            });
+
+            var marker = new google.maps.Marker({
+                position: antwerp,
+                map: map,
+                icon: markerImage,
+            });
+
+            var marker = new google.maps.Marker({
+                position: brugge,
+                map: map,
+                icon: markerImage,
             });
         }
 
