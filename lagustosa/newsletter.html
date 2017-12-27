@@ -1,0 +1,651 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round%7CBowlby+One+SC" rel="stylesheet">
+    <title>La Gustosa - Nieuwsbrief</title>
+
+    <style type="text/css">
+        body {
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        #sociallist {
+            margin-top: 30px;
+            overflow: auto;
+            text-align: center;
+        }
+
+        #sociallist li {
+            list-style-type: none;
+            float: right;
+            list-style: none;
+            display: inline;
+        }
+
+        #sociallist li a i {
+            color: #efc03c;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 25px;
+        }
+
+        #sociallist li a i {
+            transition: all .2s ease-in-out;
+        }
+
+        #sociallist li a i:hover {
+            opacity: .7;
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .btn-info {
+            font-family: 'Varela Round';
+            background-color: #efc03c;
+            color: #fff;
+            border: none;
+            margin: 30px 0 5px;
+            padding: 10px 15px;
+            border-radius: 25px;
+        }
+
+        .btn-info:hover {
+            background-color: #212121;
+            color: #fff;
+            border: #212121;
+        }
+
+        a {
+            text-decoration: none;
+            color: #edc03f;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Bowlby One SC', sans-serif;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #fff;
+        }
+
+        h2 {
+            letter-spacing: .8px;
+            font-size: 2em;
+            color: #212121;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #edc03f;
+            letter-spacing: 1px;
+        }
+
+        .footer {
+            color: #fff;
+        }
+
+        .footer a {
+            color: #edc03f;
+            text-decoration: none;
+        }
+
+        table,
+        tr,
+        td {
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        .sprite {
+            width: 96px;
+            height: 96px;
+            background-image: url(spritesheet.png);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .sprite-farfalle {
+            background-position: -96px;
+        }
+
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0;
+            mso-table-rspace: 0;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        img {
+            border: 0;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            background-color: #212121;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        div[style*=margin: 16px 0;
+        ] {
+            margin: 0 !important;
+        }
+
+        @media all and (max-width:639px) {
+            .wrapper {
+                width: 320px !important;
+                padding: 0 !important;
+            }
+
+        }
+
+        @media all and (max-width:639px) {
+            .container {
+                width: 300px !important;
+                padding: 0 !important;
+            }
+
+        }
+
+        @media all and (max-width:639px) {
+            .mobile {
+                width: 300px !important;
+                display: block !important;
+                padding: 0 !important;
+            }
+
+        }
+
+        @media all and (max-width:639px) {
+            .img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+        }
+
+        @media all and (max-width:639px) {
+            [class=mobileOff] {
+                width: 0 !important;
+                display: none !important;
+            }
+
+        }
+
+        @media all and (max-width:639px) {
+            [class*=mobileOn] {
+                display: block !important;
+                max-height: none !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            table#canspamBar td {
+                font-size: 14px !important;
+            }
+
+        }
+
+        @media only screen and (max-width: 480px) {
+            table#canspamBar td a {
+                display: block !important;
+                margin-top: 10px !important;
+            }
+
+        }
+
+        @media only screen and (max-width:639px) {
+            h1 {
+                font-size: 2em;
+            }
+
+        }
+
+        @media only screen and (max-width:639px) {
+            h2 {
+                font-size: 1.5em;
+            }
+
+        }
+
+        @media only screen and (max-width:639px) {
+            h3 {
+                font-size: 1em;
+            }
+
+        }
+
+        @media only screen and (max-width:639px) {
+            #logo {
+                height: 30px;
+            }
+
+        }
+
+        @media only screen and (max-width:639px) {
+            .afb {
+                text-align: center;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#F2F2F2;">
+    <div style="background-color:#efefef;">
+        <!--[if gte mso 9]>
+      <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+        <v:fill type="frame" src="header.jpg" color="#7bceeb" />
+        <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+          <![endif]-->
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="height:100px;">
+            <tr>
+                <td valign="top" align="left">
+                    <span style="display: block; width: 640px !important; max-width: 640px; height: 1px" class="mobileOff"></span>
+                    <center>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#efefef">
+                            <tr>
+                                <td align="center" valign="top">
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#efefef">
+                                        <tr>
+                                            <td height="30" align="center" valign="top" style="color:#606060;font-family:'Varela Round', sans-serif;font-size:9px;line-height:150%;padding-right:20px;padding-bottom:5px;padding-left:20px;text-align:center;">
+                                                Kun je deze nieuwsbrief niet volledig lezen? <br>Bekijk <a href="http://ynevdm.github.io/lagustosa/newsletter.html" target="_blank">hier</a> de online versie van deze nieuwsbrief.
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- BOVENSTE BALK MET LOGO -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                                        <tr>
+                                            <td height="10" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="50"></td>
+                                                        <td align="left" id="logo">
+                                                            <a href="http://ynevdm.github.io/lagustosa"><img height="60" alt="logo La Gustosa" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/1ae2a06a-a26a-4156-8cc5-fdabfd7d3f2c.png"></a>
+                                                        </td>
+                                                        <td>
+                                                            <ul id="sociallist">
+                                                                <li>
+                                                                    <a href="http://twitter.com/lagustosa" target="_blank">
+                                      <i class="fa fa-twitter"></i></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="http://instagram.com/lagustosa" target="_blank"> <i class="fa fa-instagram"></i></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="http://facebook.com/lagustosa" target="_blank">
+                                        <i class="fa fa-facebook"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td width="50"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- AFBEELDING MET BEGROETING -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" id="hello" background="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/7e1b259c-17c8-49e0-8ace-b60554d3f609.jpg" style="background-repeat:no-repeat;background-size:cover;background-position:center;">
+                                        <tr>
+                                            <td align="center" height="300">
+                                                <h1> Hallo <br> *|FNAME|*! </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- SAMENVATTING  -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td height="10" style="font-size:10px;line-height:10px;padding-top:40px;"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table align="center" width="400" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" class="mobile" valign="top">
+                                                            <span style="font-size:12px;line-height:16px;"> Ook deze week is er weer heel wat gebeurd in La Gustosa-land! <br>Hieronder een handig overzichtje, zo ben je weer helemaal up-to-date.</span>
+
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- WEDSTRIJD  -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td class="line" height="10" style="font-size:12px;line-height:10px;"> </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" class="mobile" valign="top">
+                                                            <h2>La Gustosa's <br>grote pastawedstrijd!</h2>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table align="center" width="400" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" class="mobile" valign="top">
+                                                            <span style="font-size:12px;line-height:16px;"> Om 2017 af te sluiten en het nieuwe jaar in te gaan met een spetterende start, geven we een heus 'pasta-arrangement' weg! <br>
+                                      <br><span style="font-size: 1.5em; font-weight: 600">Wat wil dat zeggen? </span>
+                                                            <br>
+                                                            <br> Als je meedoet aan onze wedstrijd, maak je kans op een gratis pastafeest voor jou en maar liefst <strong>10 vrienden</strong>!<br>
+                                                            <br><span style="font-size: 1.5em; font-weight: 600">Wat moet je daarvoor doen? </span>
+                                                            <br>
+                                                            <br>Vul het wedstrijdformulier op onze website in en maak kans! <br>
+                                                            <br></span>
+                                                            <table class="btn-info" border="0" cellpadding="0" cellspacing="0" style="border-radius:25px;">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;">
+                                                                        <a href="http://ynevdm.github.io/lagustosa/wedstrijd.html" target="_blank" style="color:#FFFFFF;text-decoration:none;">Ready? Set? Go!</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- NIEUWE SMAKEN -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td class="line" height="10" style="font-size:10px;line-height:10px;"> </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" class="mobile" valign="top">
+                                                            <h3>Nieuwe smaken</h3>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td align="center" class="mobile" valign="top">
+                                                            <span style="font-size:12px;line-height:16px;"> Onze menukaart telt vanaf deze week maar liefst 3 nieuwe smaken! <br>Ontdek ze op onze <a href="http://ynevdm.github.io/lagustosa/smaken.html"> website</a>!</span>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="90" class="mobile" align="center" valign="top"></td>
+                                                        <td width="140" class="mobile" align="center" valign="top">
+                                                            <a href="http://ynevdm.github.io/lagustosa/smaken.html"><img style="width: 120px; border-radius: 50%; margin-top: 20px;" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/52b53cc5-4114-4b5a-8ee1-8f5a3220f269.jpg" alt="Pasta Courgetti"></a>
+                                                        </td>
+                                                        <td width="140" class="mobile" align="center" valign="top">
+                                                            <a href="http://ynevdm.github.io/lagustosa/smaken.html"><img style="width: 120px; border-radius: 50%; margin-top: 20px;" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/0ee5a2be-ff51-4b72-a588-b05576b00539.jpg" alt="Pasta Courgetti"></a>
+                                                        </td>
+                                                        <td width="140" class="mobile" align="center" valign="top">
+                                                            <a href="http://ynevdm.github.io/lagustosa/smaken.html"><img style="width: 120px; border-radius: 50%; margin-top: 20px;" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/c66d6c62-61f8-4da2-9819-4d376f5e3331.jpg" alt="Pasta Courgetti"></a>
+                                                        </td>
+                                                        <td width="90" class="mobile" align="center" valign="top"></td>
+                                                    </tr>
+                                                </table>
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="150"></td>
+                                                        <td width="300" align="center">
+                                                            <table class="btn-info" border="0" cellpadding="0" cellspacing="0" style="border-radius:25px;">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;">
+                                                                        <a href="http://ynevdm.github.io/lagustosa/smaken.html" target="_blank" style="color:#FFFFFF;text-decoration:none;">Ontdek de nieuwe smaken</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="150"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- PASTA VAN DE MAAND  -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td class="line" height="10" style="font-size:10px;line-height:10px;"> </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="600" align="center" class="mobile" valign="top">
+                                                            <h2>Pasta van de Maand <br> Creamy Mushroom Chicken</h2>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table>
+                                                    <tr>
+                                                        <td width="50" class="mobile" align="left" valign="top"></td>
+                                                        <td width="200" class="mobile" align="center" valign="top">
+                                                            <a href="http://ynevdm.github.io/lagustosa/pastavandemaand.html"><img class="afb" style="width: 160px; border-radius: 50%; margin-top: 0px;" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/3441e910-3198-4808-b910-eb24af2ef67b.jpg" alt="Pasta van de Maand"></a>
+                                                        </td>
+
+
+                                                        <td width="300" align="right" class="mobile" valign="top">
+                                                            <span class="afb" style="font-size:12px;line-height:16px;"> Naar maandelijkse gewoonte introduceren we onze nieuwe <strong>Pasta van de Maand</strong>-smaak! <br>
+                                        <br>
+                                        Dit keer kozen Eva en Sergio voor de <strong>Creamy Mushroom Chicken</strong>, een heerlijk pastagerecht met champignons en kip. <br>
+                                        <br>Ontdek het allemaal op onze <a href="http://ynevdm.github.io/lagustosa/pastavandemaand.html"> website</a>!
+                                        
+                                      </span>
+                                                            <table class="btn-info" border="0" cellpadding="0" cellspacing="0" style="border-radius:25px;">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;">
+                                                                        <a href="http://ynevdm.github.io/lagustosa/pastavandemaand.html" target="_blank" style="color:#FFFFFF;text-decoration:none;font-size:.8em;">Ontdek de Creamy Mushroom Chicken!</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="50" class="mobile" align="left" valign="top"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:12px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- TOEKOMSTIGE EVENTS -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td class="line" height="10" style="font-size:12px;line-height:10px;"> </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="50" class="mobile" align="left" valign="top"></td>
+                                                        <td width="300" class="mobile" align="left" valign="top">
+                                                            <span>
+                                        <h3>Toekomstige events</h3></span>
+
+
+                                                            <span class="afb" style="font-size:12px;line-height:16px;"> We hebben weer heel wat nieuwe data toegevoegd aan onze kalender! Wil je binnenkort van onze heerlijke pasta smullen? Check dan zeker onze <a href="http://ynevdm.github.io/lagustosa/kalender.html"> kalender</a>!</span>
+                                                            <br>
+                                                            <table class="btn-info" border="0" cellpadding="0" cellspacing="0" style="border-radius:25px;">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" style="padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px;">
+                                                                        <a href="http://ynevdm.github.io/lagustosa/kalender.html" target="_blank" style="color:#FFFFFF;text-decoration:none;">Bekijk de kalender</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="200" class="mobile" align="center" valign="top">
+                                                            <a href="http://ynevdm.github.io/lagustosa/kalender.html"><img class="afb" style="width: 160px; border-radius: 50%; margin-top: 30px;" src="https://gallery.mailchimp.com/c7025af84d20b81329888f962/images/5334ab7e-addc-489b-8dc6-96ee6b1c2db6.jpg" alt="Kalender"></a>
+                                                        </td>
+                                                        <td width="50" class="mobile" align="left" valign="top"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="line" height="10" style="font-size:10px;line-height:12px;"> </td>
+                                        </tr>
+                                    </table>
+                                    <!-- SPRITE -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="260" style="font-size:12px;line-height:12px;">
+                                                        </td>
+                                                        <td width="96" align="center" valign="top" class="sprite sprite-farfalle"></td>
+                                                        <td width="260" style="font-size:10px;line-height:12px;">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- FOOTER -->
+                                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="footer wrapper" bgcolor="#212121">
+                                        <tr>
+                                            <td height="30" style="font-size:10px;line-height:12px;"> </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                                    <tr>
+                                                        <td width="50" align="left"></td>
+                                                        <td width="135" align="left" style="font-size:9px;line-height:14px;">
+                                                            <a href="http://ynevdm.github.io/lagustosa/uitschrijven.html" target="_blank">Uitschrijven?</a>
+                                                            <br>La Gustosa<br> Industrieweg 232 <br>9000 GENT<br> Tel. 09 348 52 63 </td>
+
+                                                        <td width="200" align="left" style="font-size:10px;line-height:14px; ">
+                                                            <ul id="sociallist" style="float:left;">
+                                                                <li><a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                                <li><a href="http://instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                                <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td width="175" align="right" style="font-size:9px;line-height:14px;">
+                                                            <a href="http://ynevdm.github.io/lagustosa" target="_blank">Website</a>
+                                                            <br>Yne Van De Mergel <br>NMDII-STDV • 2017-2018
+
+                                                            <br>Grafische en digitale media
+                                                            <br>Arteveldehogeschool Gent </td>
+                                                        <td width="50" align="left"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="30" style="font-size:10px;line-height:10px;"> </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+                    <center>
+                        <table style="margin-top:20px;margin-bottom:20px;" border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                            <tr>
+                                <td align="center" valign="top" style="padding-top:20px;padding-bottom:20px;"></td>
+                                <td align="center" valign="top" style="color:#606060;font-family:'Varela Round', sans-serif;font-size:9px;line-height:150%;padding-right:20px;padding-bottom:5px;padding-left:20px;text-align:center;">
+                                    Deze e-mail werd verstuurd naar <a href="mailto:*|EMAIL|*" target="_blank" style="color:#404040 !important;">*|EMAIL|*</a>
+                                    <br><a href="*|ABOUT_LIST|*" target="_blank" style="color:#404040 !important;">Waarom krijg ik deze e-mail?</a>    <a href="*|UNSUB|*" style="color:#404040 !important;">Schrijf je uit van deze mailinglist</a>    <a href="*|UPDATE_PROFILE|*" style="color:#404040 !important;"> Pas je voorkeuren aan</a>
+                                    <br>*|LIST:ADDRESSLINE|*
+                                    <br>
+                                    <br>*|REWARDS|*
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <!--[if gte mso 9]>
+                    </v:textbox>
+                  </v:rect>
+                  <![endif]-->
+    </div>
+</body>
+
+</html>
