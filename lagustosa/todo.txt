@@ -1,6 +1,6 @@
 - Overzicht pasta's
 - sprites
 + touchicons
-- Nieuwsbrief
++ Nieuwsbrief
 - Nieuwsbriefformaanpassen
 
