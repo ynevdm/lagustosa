@@ -192,9 +192,14 @@ a.bel {
     text-align: right;
 }
 
-#wedstrijdinfo a {
+#wedstrijdinfo a,
+.infobox a {
     color: #edc03f;
     text-decoration: none;
+}
+
+.strong {
+    font-weight: 800;
 }
 
 /* ---------------------------------------------------
@@ -240,6 +245,10 @@ a.bel {
 
 #contact1 {
     background-image: url('../images/contact1.jpg');
+}
+
+#smaken1 {
+    background-image: url('../images/smaken.jpg');
 }
 
 #concept1 {
@@ -474,7 +483,7 @@ p {
         overflow: auto;
         text-align: center;
         margin-top: 20px;
-        margin-right: 150px;
+        margin-right: 120px;
     }
 
 
@@ -678,10 +687,7 @@ input[type=date] {
     text-decoration: none;
 }
 
-span {
-    font-style: italic;
-    display: block;
-}
+
 
 img {
     max-width: 100%;
@@ -735,4 +741,11 @@ img {
 
 .float-tw {
     top: 270px;
+}
+
+
+/* ---- PASTA ---*/
+
+.rounded-circle {
+    width: 120px;
 }
