@@ -3,4 +3,6 @@
 + touchicons
 + Nieuwsbrief
 - Nieuwsbriefformaanpassen
+- Mobile menu: contact weghalen
+- Menu pagina maken
 
