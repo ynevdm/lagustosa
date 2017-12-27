@@ -2,7 +2,9 @@
 + sprites
 + touchicons
 + Nieuwsbrief
-- Nieuwsbriefformaanpassen
++ Nieuwsbriefformaanpassen
 - Mobile menu: contact weghalen
 - Menu pagina maken
+- filmpje scrollen door website
+- wireframes in bootstrap
 
