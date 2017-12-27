@@ -65,6 +65,11 @@ form {
     SIDEBAR
 ----------------------------------------------------- */
 
+.sidebarlogo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 #sidebar {
     width: 250px;
     position: fixed;
@@ -355,6 +360,10 @@ p {
 .dates {
     padding-bottom: 20px;
     margin-top: 40px;
+}
+
+#wedstrijdinfo {
+    color: #fff;
 }
 
 /* ---------------------------------------------------
