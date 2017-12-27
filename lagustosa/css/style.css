@@ -42,6 +42,9 @@ a:visited {
     background-color: #efc03c;
     border: none;
     margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
 }
 
 .btn-info:hover {
@@ -171,6 +174,7 @@ a.bel {
 
     padding-top: 40px;
 
+
 }
 
 .footer a {
@@ -186,6 +190,11 @@ a.bel {
 
 .single {
     text-align: right;
+}
+
+#wedstrijdinfo a {
+    color: #edc03f;
+    text-decoration: none;
 }
 
 /* ---------------------------------------------------
@@ -264,6 +273,7 @@ a.bel {
     font-family: 'Bowlby One SC';
     font-size: 7em;
 }
+
 
 h2,
 h3,
@@ -364,6 +374,11 @@ p {
 
 #wedstrijdinfo {
     color: #fff;
+
+}
+
+#wedstrijdfoto {
+    width: 100%;
 }
 
 /* ---------------------------------------------------
@@ -382,6 +397,9 @@ p {
         background-color: #efefef;
         color: #212121;
         padding: 0 0 0 15px;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
     }
 
     .navbarbrand {
@@ -422,6 +440,10 @@ p {
         padding-top: 120px;
     }
 
+    #welkom {
+        font-size: 2em;
+
+    }
 
 
     #map {
@@ -448,6 +470,14 @@ p {
     .table {
         font-size: 0.8em;
     }
+    #sociallist {
+        overflow: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 150px;
+    }
+
+
 
 }
 
@@ -503,6 +533,14 @@ input[type=date] {
 
 .asterisk {
     color: #edc03f;
+}
+
+.veld {
+    margin-top: 40px;
+}
+
+.invul {
+    margin-top: 10px;
 }
 
 /* -- GALLERY -- */
@@ -618,4 +656,83 @@ input[type=date] {
 
 .sprite-ripe {
     background-position: 96px;
+}
+
+
+/* -- SOCIAL MEDIA BAR -- */
+
+.twitter {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.twitter:hover {
+    color: #FF7D6D;
+    text-decoration: none;
+}
+
+span {
+    font-style: italic;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.fl-fl {
+    background: #edc03f;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px;
+    width: 250px;
+    position: fixed;
+    right: -210px;
+    z-index: 1000;
+    font: normal normal 9px 'Varela Round';
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.fl-fl .fa {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 0;
+    width: 30px;
+    margin-left: 8px;
+}
+
+.fl-fl:hover {
+    right: 0;
+}
+
+.fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+}
+
+.float-fb {
+    top: 160px;
+}
+
+.float-ig {
+    top: 215px;
+}
+
+.float-tw {
+    top: 270px;
 }

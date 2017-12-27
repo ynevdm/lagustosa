@@ -132,44 +132,56 @@
                     <div class="col-md-3 col-sm-1"></div>
                     <div class="col-md-6 col-sm-10">
                         <p id="wedstrijdinfo"> Speciaal voor onze nieuwsbrieflezers organiseren wij <br> de Grote Pastawedstrijd! <br>Wat moet je doen om kans te maken? Simpel! <br>Vul je gegevens in en geef een juist antwoord op onderstaande vraag. <br>Wie weet vier jij binnenkort met 10 vrienden een heuse pastaparty!</p>
-                        <form action="/bedankt.html" method="get">
+
+                        <form action="bedankt.html" method="get">
+
+
                             <div class="form-group row">
                                 <div class="col-md-6 col-sm-10">
                                     <input class="form-control required" type="text" id="Naamveld" placeholder="Naam*">
                                 </div>
-                                <div class="col-md-6 col-sm-10">
+
+                                <div class="col-md-6 col-sm-12">
                                     <input class="form-control required" type="text" id="Voornaamveld" placeholder="Voornaam*">
                                 </div>
+
                             </div>
                             <div class="form-group row">
-                                <div class="col-md-6 col-sm-10">
+                                <div class="col-md-6 col-sm-12">
                                     <input type="email" class="form-control required" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mailadres*">
+
                                     <small> <small id="emailHelp" class="opmerking form-text">Je e-mailadres komt nooit in foute handen terecht, beloofd!</small></small>
                                 </div>
-                                <div class="col-md-6 col-sm-10">
+
+
+                                <div class="col-md-6 col-sm-12">
                                     <input class="form-control required" type="tel" placeholder="Telefoonnummer*" id="Telefoonveld">
                                 </div>
                             </div>
-                            <div id="vraag">
-
+                            <div class="form-group row">
+                                <div class="col-md-12 col-sm-12" id="vraag">
+                                    <img id="wedstrijdfoto" src="images/wedstrijd.jpg" alt="Wedstrijdfoto">
+                                </div>
                             </div>
-                            <div id="opties"><label for="opties" class="col-form-label">Welk soort pasta zie je op de afbeelding? <span class="asterisk">*</span></label>
-                                <br>
-                                <div class="form-check form-check-inline">
+                            <div class="form-group row">
+                                <div class="col-md-12 col-sm-12" id="opties"><label for="opties" class="col-form-label">Welk soort pasta zie je op de afbeelding?<span class="asterisk">*</span></label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
 
-                                    <label class="form-check-label required">
+                                        <label class="form-check-label required">
     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Farfalle"> Farfalle
   </label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <label class="form-check-label">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Penne"> Penne
   </label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <label class="form-check-label">
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <label class="form-check-label">
     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Fusilli"> Fusilli
   </label>
+                                    </div>
                                 </div>
                             </div>
                             <br>
@@ -183,18 +195,38 @@
                             <button id="submitbutton" type="submit" class="btn btn-primary">Versturen</button>
                         </form>
                     </div>
-                    <div class="col-md-3 col-sm-1"></div>
+
                 </div>
 
 
 
                 <div class="line"></div>
 
+                <!-- SOCIAL MEDIA -->
+
+                <div class="float-sm">
+                    <div class="fl-fl float-fb">
+                        <i class="fa fa-facebook"></i>
+                        <a href="http://facebook.com/lagustosa" target="_blank"> Like ons op Facebook!</a>
+                    </div>
+                    <div class="fl-fl float-tw">
+                        <i class="fa fa-twitter"></i>
+                        <a href="http://twitter.com/lagustosa" target="_blank">Volg ons op Twitter!</a>
+                    </div>
+
+                    <div class="fl-fl float-ig">
+                        <i class="fa fa-instagram"></i>
+                        <a href="http://instagram.com/lagustosa" target="_blank">Volg ons op Instagram!</a>
+                    </div>
+
+                </div>
+
+                <!-- FOOTER -->
                 <div class="footer">
                     <div class="row">
 
                         <div class="col-md-2 col-sm-3"></div>
-                        <div class="col-md-2 col-sm-6"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63</div>
+                        <div class="col-md-2 col-sm-6"> La Gustosa <br> Industrieweg 232 <br> 9000 GENT <br> Tel. 09 348 52 63<br></div>
                         <div class="col-md-1 col-sm-3"></div>
                         <div class="col-md-2 col-sm-12">
                             2017-2018 &#8226; NMDII-STDV <br> Yne Van De Mergel &#8226; <a href="productiedossier.pdf">PDF</a> <br> Grafische en digitale media <br> Arteveldehogeschool Gent <br>
@@ -205,25 +237,33 @@
                         <div class="col-md-3 col-sm-12">
                             <ul id="sociallist">
 
-                                <li><a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="http://instagram.com/" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="http://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="http://twitter.com/lagustosa" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="http://instagram.com/lagustosa" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="http://facebook.com/lagustosa" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             </ul>
-
-                            <div>Schrijf in op onze nieuwsbrief</div>
-                            <div class="col-sm-2"></div>
-
-                            <div class="col-md-12 col-sm-8 input-group">
-
-                                <input type="email" class="form-control" placeholder="E-mailadres">
-                                <span class="input-group-btn">
-         <button class="btn btn-info btn-theme" type="submit">Schrijf nu in</button>
-         </span>
-                            </div>
-                            <div class="col-sm-2"></div>
                         </div>
-
+                        <div class="col-md-2"></div>
                     </div>
+                    <div class="row"></div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-8">
+                            <div></div>
+
+
+
+                            <form action="https://github.us17.list-manage.com/subscribe/post?u=c7025af84d20b81329888f962&amp;id=a80f82d67e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Schrijf in op onze nieuwsbrief">
+                                    <span class="input-group-btn">
+         <button class="btn btn-info btn-theme" type="submit">Schrijf nu in</button>
+         </span></div>
+                            </form>
+
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+
                 </div>
 
             </div>

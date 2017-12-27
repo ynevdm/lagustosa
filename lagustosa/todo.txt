@@ -1,5 +1,5 @@
 - Overzicht pasta's
-- sprites
++ sprites
 + touchicons
 + Nieuwsbrief
 - Nieuwsbriefformaanpassen
