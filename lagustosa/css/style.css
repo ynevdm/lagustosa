@@ -390,7 +390,18 @@ p {
     width: 100%;
 }
 
+.uitleg {
+    font-size: 0.9em;
+}
 
+.mobile-list {
+    margin: 0;
+
+}
+
+.mobile-bg {
+    background-color: #212121;
+}
 
 /* ---------------------------------------------------
     MEDIA QUERIES
@@ -398,6 +409,10 @@ p {
 
 @media (min-width: 768px) {
     .navbar {
+        display: none;
+    }
+
+    .mobile-list {
         display: none;
     }
 }
@@ -499,6 +514,14 @@ p {
         font-size: 3em;
     }
 
+    .boek,
+    .bel {
+        padding: 10px 0 10px 0;
+    }
+
+    ul.CTAs {
+        padding-bottom: 0;
+    }
 
 }
 
