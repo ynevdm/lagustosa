@@ -1,11 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Varela+Round|Sigmar+One|Bowlby+One+SC');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round|Bowlby+One+SC');
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url('../fonts/glyphicons-halflings-regular.eot');
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
+/* -- LANDINGPAGE */
+
+#bodylanding {
+    background-color: #efefef;
+}
+
+.landing {
+    padding-top: 180px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+    transform: 50% 50%;
+    vertical-align: middle;
+    height: 200px;
+}
+
+
+.larger {
+    transition: all .3s ease-out 0.5s;
+}
+
+.larger:hover {
+    transform: scale(1.6);
+}
+
+
+
+
+
+
+
+
+
+
+/* -- INHOUD -- */
 
 body {
     margin: 0 auto;
@@ -345,6 +383,7 @@ p {
 .container-fluid {
     padding: 0px;
     min-height: 70vh;
+
 }
 
 .inhoud2 {
@@ -352,7 +391,8 @@ p {
 }
 
 .book,
-.newsletter {
+.newsletter,
+.landing {
     color: #efc03c;
     font-size: 3em;
 }
