@@ -1,4 +1,4 @@
-- Overzicht pasta's
++ Overzicht pasta's
 + sprites
 + touchicons
 + Nieuwsbrief
@@ -7,4 +7,6 @@
 - Menu pagina maken
 - filmpje scrollen door website
 - wireframes in bootstrap
+- Verschillende smaken
+- Startpagina overzicht maken (zie wireframes)
 
