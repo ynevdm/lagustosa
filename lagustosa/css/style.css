@@ -383,12 +383,14 @@ p {
 
 #wedstrijdinfo {
     color: #fff;
-
+    padding-top: 40px;
 }
 
 #wedstrijdfoto {
     width: 100%;
 }
+
+
 
 /* ---------------------------------------------------
     MEDIA QUERIES
@@ -424,6 +426,9 @@ p {
         border: none;
     }
 
+    .inhoud {
+        padding-top: 40px;
+    }
     #hamburger {
         color: #212121;
 
@@ -443,16 +448,16 @@ p {
     #sidebarCollapse span {
         display: none;
     }
+    #welkom {
+        font-size: 3em;
 
+    }
     .ha1 {
         font-size: 4em;
         padding-top: 120px;
     }
 
-    #welkom {
-        font-size: 2em;
 
-    }
 
 
     #map {
@@ -485,7 +490,14 @@ p {
         margin-top: 20px;
         margin-right: 120px;
     }
+    .book {
+        word-break: normal;
+    }
 
+    .overlagus {
+        padding-top: 130px;
+        font-size: 3em;
+    }
 
 
 }
@@ -732,15 +744,15 @@ img {
 }
 
 .float-fb {
-    top: 160px;
+    top: 250px;
 }
 
 .float-ig {
-    top: 215px;
+    top: 305px;
 }
 
 .float-tw {
-    top: 270px;
+    top: 360px;
 }
 
 
