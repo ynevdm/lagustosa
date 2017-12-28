@@ -347,11 +347,17 @@ p {
     min-height: 100vh;
 }
 
+.inhoud2 {
+    padding-top: 40px;
+}
+
 .book,
 .newsletter {
     color: #efc03c;
     font-size: 3em;
 }
+
+
 
 .bookingform,
 .nieuwsbriefform {
@@ -395,11 +401,22 @@ p {
 }
 
 .mobile-list {
-    margin: 0;
+    margin: 0 0 30px 0;
 
 }
 
 .mobile-bg {
+    background-color: #212121;
+
+}
+
+.mobile-bg a {
+    color: #fff;
+    background-color: #edc03f;
+}
+
+.mobile-bg a:hover {
+    color: #fff;
     background-color: #212121;
 }
 
@@ -444,6 +461,10 @@ p {
     .inhoud {
         padding-top: 40px;
     }
+
+    .inhoud2 {
+        padding-top: 60px;
+    }
     #hamburger {
         color: #212121;
 
@@ -487,6 +508,7 @@ p {
     .footer {
         font-size: 0.8em;
         text-align: center;
+        padding-top: 0px;
     }
     .col-afbeelding {
         height: 50vh;
@@ -521,6 +543,12 @@ p {
 
     ul.CTAs {
         padding-bottom: 0;
+    }
+
+    .navbar-nav li.active a {
+        color: #edc03f;
+        font-weight: 800;
+
     }
 
 }
