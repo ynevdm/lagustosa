@@ -23,7 +23,7 @@
     <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title>La Gustosa | Bedankt </title>
+    <title>La Gustosa | Boek ons </title>
 </head>
 
 <body>
@@ -77,11 +77,8 @@
                 <li>
                     <a href="boek.html" class="boek">Boek ons</a>
                 </li>
-                <li>
-                    <a href="nieuwsbrief.html" class="bel">Nieuwsbrief</a>
-                </li>
                 <li class="active">
-                    <a href="wedstrijd.html" class="bel">Wedstrijd</a>
+                    <a href="nieuwsbrief.html" class="bel">Nieuwsbrief <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
         </nav>
@@ -129,24 +126,65 @@
 
                     </div>
                 </nav>
-                <div class="inhoud2">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="book">Doe mee aan onze <br>grote pasta wedstrijd!</h2>
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-md-3 col-sm-1"></div>
-                        <div class="col-md-6 col-sm-10">
-                            <p id="wedstrijdinfo"> Bedankt om mee te spelen! We brengen de gelukkige winnaar persoonlijk op de hoogte. Check intussen onze <a href="kalender.html">kalender</a> en breng ons een bezoekje!</p>
-
-                        </div>
-                        <div class="col-md-3 col-sm-1"></div>
+                <div class="inhoud row">
+                    <div class="col-md-12 col-sm-8">
+                        <h2 class="book">Uitschrijven voor <br>onze nieuwsbrief?</h2>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-2"></div>
+                    <div class="col-md-6 col-sm-8">
+                        <p id="wedstrijdinfo"> Jammer dat je je wilt uitschrijven voor onze nieuwsbrief! <br> We're sad to see you go! <br>Mocht je toch van gedachten veranderen, je weet ons te vinden.</p>
 
+                    </div>
+                    <div class="col-md-3 col-sm-2"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-4"></div>
+                    <div class="col-md-6 col-sm-4">
+                        <form action="succes.html" method="get">
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+    Jullie sturen mij veel te veel e-mails!
+  </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    Ik kan me echt niet herinneren dat ik me heb ingeschreven op deze mailinglist...
+  </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+    Jullie e-mails interesseren me niet.
+  </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option4">
+    Ik krijg gewoon veel te veel e-mails.
+  </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option5">
+    Ik lust eigenlijk helemaal geen pasta. * THE HORROR *
+  </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option6">
+    Andere.
+  </label>
+                            </div>
+                            <button id="submitbutton" type="submit" class="btn btn-primary">Versturen</button>
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-sm-4"></div>
+                </div>
 
 
 
@@ -168,11 +206,12 @@
                     </div>
 
                 </div>
+
             </div>
             <div class="line"></div>
             <!-- FOOTER -->
-
             <div class="footer">
+
                 <div class="mobile-bg row">
                     <div class="col-2"></div>
                     <div class="col-8">
@@ -181,11 +220,8 @@
                             <li>
                                 <a href="boek.html" class="boek">Boek ons</a>
                             </li>
-                            <li>
-                                <a href="nieuwsbrief.html" class="bel">Nieuwsbrief</a>
-                            </li>
                             <li class="active">
-                                <a href="wedstrijd.html" class="bel">Wedstrijd <span class="sr-only">(current)</span></a>
+                                <a href="nieuwsbrief.html" class="bel">Nieuwsbrief <span class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
@@ -235,9 +271,9 @@
 
             </div>
 
+
         </div>
     </div>
-
 
 
     <!-- end content -->
