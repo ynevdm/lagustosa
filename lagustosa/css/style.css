@@ -564,11 +564,13 @@ FORM
 .form-control,
     {
     background-color: none;
-    border-bottom: 3px #efc30c;
+    border-bottom: solid 1px #efc30c;
+    outline: none;
 }
 
 .form-control::-webkit-input-placeholder {
     color: #efc30c;
+    outline: none;
 }
 
 .form-group {}
@@ -579,7 +581,13 @@ input[type=tel],
 input[type=date] {
     background-color: transparent;
     color: #efc30c;
+    outline: none;
+}
 
+textarea {
+    width: 100%;
+    overflow: hidden;
+    outline: none;
 }
 
 .form-control,
@@ -587,7 +595,7 @@ input[type=date] {
     border-bottom: 1px solid #efc30c;
     -webkit-box-shadow: none;
     box-shadow: none;
-    outline: 0 !important;
+    outline: none;
     color: #efc30c;
     background-color: transparent;
 }
@@ -595,7 +603,7 @@ input[type=date] {
 .form-control:focus + .input-group-addon,
 .form-control:focus ~ .input-group-addon {
     border-bottom: 1px solid #efc30c;
-    border-left: none;
+    outline: none;
     background-color: transparent;
 }
 
@@ -614,6 +622,20 @@ input[type=date] {
 
 .invul {
     margin-top: 10px;
+}
+
+.contactopnemen input[type=email],
+.contactopnemen input[type=text],
+.contactopnemen input[type=tel],
+.contactopnemen textarea {
+    border-bottom: solid 1px #212121;
+    color: #212121;
+    outline: none;
+}
+
+.contactopnemen .form-control::-webkit-input-placeholder {
+    color: #212121;
+    outline: none;
 }
 
 /* -- GALLERY -- */
