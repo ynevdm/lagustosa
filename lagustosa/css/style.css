@@ -344,7 +344,7 @@ p {
 
 .container-fluid {
     padding: 0px;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .inhoud2 {
@@ -390,6 +390,7 @@ p {
 #wedstrijdinfo {
     color: #fff;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 #wedstrijdfoto {
