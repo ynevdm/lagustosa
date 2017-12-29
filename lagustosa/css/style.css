@@ -5,12 +5,11 @@
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
+
 /* -- LANDINGPAGE */
 
 #bodylanding {
     background-color: #efefef;
-
-
 }
 
 .conlanding {
@@ -29,11 +28,9 @@
     margin-left: auto;
     margin-right: auto;
     float: none !important;
-    transform: 50% 50%;
     vertical-align: middle;
     height: 200px;
 }
-
 
 .larger {
     transition: all .3s ease-out 0.5s;
@@ -44,20 +41,11 @@
 }
 
 
-
-
-
-
-
-
-
-
 /* -- INHOUD -- */
 
 body {
     margin: 0 auto;
     font-family: 'Varela Round', sans-serif;
-
     display: flex;
     align-items: center;
 }
@@ -78,7 +66,6 @@ h1 {
 
 #welkom {
     font-size: 4em;
-
 }
 
 a:link,
@@ -96,7 +83,6 @@ a:visited {
     margin-top: 20px;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-
 }
 
 .btn-info:hover {
@@ -115,6 +101,7 @@ form {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 
 /* ---------------------------------------------------
     SIDEBAR
@@ -163,12 +150,11 @@ form {
     background: #212121;
 }
 
-#sidebar ul li.active > a,
+#sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
     background: #212121;
 }
-
 
 a[data-toggle="collapse"] {
     position: relative;
@@ -187,7 +173,6 @@ a[aria-expanded="true"]::before {
 a[aria-expanded="true"]::before {
     content: '\e260';
 }
-
 
 ul ul a {
     font-size: 0.9em !important;
@@ -223,10 +208,7 @@ a.bel {
     color: #fff;
     padding: 20px 0 20px 0;
     font-size: 0.8em;
-
     padding-top: 40px;
-
-
 }
 
 .footer a {
@@ -253,6 +235,7 @@ a.bel {
 .strong {
     font-weight: 800;
 }
+
 
 /* ---------------------------------------------------
     CONTENT
@@ -281,14 +264,10 @@ a.bel {
 
 #home {
     background-image: url('../images/home.jpg');
-
-
 }
 
 #pasta1 {
     background-image: url('../images/pasta1.jpg');
-
-
 }
 
 #soortenpasta {
@@ -317,14 +296,10 @@ a.bel {
 
 #pastavandemaand1 {
     background-image: url('../images/pastavandemaand.jpg');
-
-
 }
 
 #fotos {
     background-image: url('../images/fotos.jpg');
-
-
 }
 
 .ha1 {
@@ -334,7 +309,6 @@ a.bel {
     font-family: 'Bowlby One SC';
     font-size: 7em;
 }
-
 
 h2,
 h3,
@@ -364,7 +338,6 @@ p {
     height: 40px;
     border-radius: 20px;
     font-size: 25px;
-
 }
 
 #sociallist li a i {
@@ -397,7 +370,6 @@ p {
 .container-fluid {
     padding: 0px;
     min-height: 70vh;
-
 }
 
 .inhoud2 {
@@ -411,13 +383,10 @@ p {
     font-size: 3em;
 }
 
-
-
 .bookingform,
 .nieuwsbriefform {
     background-color: #212121;
     color: #fff;
-
 }
 
 .mc-field-group row {
@@ -457,12 +426,10 @@ p {
 
 .mobile-list {
     margin: 0 0 30px 0;
-
 }
 
 .mobile-bg {
     background-color: #212121;
-
 }
 
 .mobile-bg a {
@@ -475,6 +442,7 @@ p {
     background-color: #212121;
 }
 
+
 /* ---------------------------------------------------
     MEDIA QUERIES
 ----------------------------------------------------- */
@@ -483,7 +451,6 @@ p {
     .navbar {
         display: none;
     }
-
     .mobile-list {
         display: none;
     }
@@ -499,12 +466,10 @@ p {
         z-index: 1000;
         width: 100%;
     }
-
     .navbarbrand {
         width: 125px;
         padding: 0px;
     }
-
     .navbar-toggler,
     .navbar-toggler:hover,
     .navbar-toggler:active {
@@ -512,17 +477,14 @@ p {
         height: 30px;
         border: none;
     }
-
     .inhoud {
         padding-top: 40px;
     }
-
     .inhoud2 {
         padding-top: 60px;
     }
     #hamburger {
         color: #212121;
-
     }
     #sidebar {
         margin-left: -250px;
@@ -541,25 +503,17 @@ p {
     }
     #welkom {
         font-size: 3em;
-
     }
     .ha1 {
         font-size: 4em;
         padding-top: 120px;
     }
-
-
-
-
     #map {
         height: 300px;
     }
-
     .video {
-
         height: 235px;
     }
-
     .footer {
         font-size: 0.8em;
         text-align: center;
@@ -568,11 +522,9 @@ p {
     .col-afbeelding {
         height: 50vh;
     }
-
     .table row {
         margin: 0px;
     }
-
     .table {
         font-size: 0.8em;
     }
@@ -585,39 +537,30 @@ p {
     .book {
         word-break: normal;
     }
-
     .overlagus {
         padding-top: 130px;
         font-size: 3em;
     }
-
     .boek,
     .bel {
         padding: 10px 0 10px 0;
     }
-
     ul.CTAs {
         padding-bottom: 0;
     }
-
     .navbar-nav li.active a {
         color: #edc03f;
         font-weight: 800;
-
     }
-
 }
-
-
 
 
 /* --------------------------
 FORM
 ----------------------- */
 
-.form-control,
-    {
-    background-color: none;
+.form-control {
+    background-color: transparent;
     border-bottom: solid 1px #efc30c;
     outline: none;
 }
@@ -654,8 +597,8 @@ textarea {
     background-color: transparent;
 }
 
-.form-control:focus + .input-group-addon,
-.form-control:focus ~ .input-group-addon {
+.form-control:focus+.input-group-addon,
+.form-control:focus~.input-group-addon {
     border-bottom: 1px solid #efc30c;
     outline: none;
     background-color: transparent;
@@ -692,6 +635,7 @@ textarea {
     outline: none;
 }
 
+
 /* -- GALLERY -- */
 
 .container.gallery-container {
@@ -712,9 +656,10 @@ textarea {
     padding: 40px;
 }
 
+
 /* Override bootstrap column paddings */
 
-.tz-gallery .row > div {
+.tz-gallery .row>div {
     padding: 2px;
 }
 
@@ -737,11 +682,9 @@ textarea {
     font-size: 26px;
     font-family: 'Glyphicons Halflings';
     content: '\e003';
-    pointer-events: none;
     z-index: 9000;
     transition: 0.4s;
 }
-
 
 .tz-gallery .lightbox:after {
     position: absolute;
@@ -827,12 +770,9 @@ textarea {
     text-decoration: none;
 }
 
-
-
 img {
     max-width: 100%;
 }
-
 
 .fl-fl {
     background: #edc03f;
