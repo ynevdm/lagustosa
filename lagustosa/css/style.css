@@ -150,7 +150,7 @@ form {
     background: #212121;
 }
 
-#sidebar ul li.active>a,
+#sidebar ul li.active > a,
 a[aria-expanded="true"] {
     color: #fff;
     background: #212121;
@@ -503,11 +503,13 @@ p {
     }
     #welkom {
         font-size: 3em;
+
     }
     .ha1 {
         font-size: 4em;
         padding-top: 120px;
     }
+
     #map {
         height: 300px;
     }
@@ -597,8 +599,8 @@ textarea {
     background-color: transparent;
 }
 
-.form-control:focus+.input-group-addon,
-.form-control:focus~.input-group-addon {
+.form-control:focus + .input-group-addon,
+.form-control:focus ~ .input-group-addon {
     border-bottom: 1px solid #efc30c;
     outline: none;
     background-color: transparent;
@@ -659,7 +661,7 @@ textarea {
 
 /* Override bootstrap column paddings */
 
-.tz-gallery .row>div {
+.tz-gallery .row > div {
     padding: 2px;
 }
 
